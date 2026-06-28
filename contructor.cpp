@@ -36,3 +36,9 @@ Rectangle r3(r2);
 cout<<r3.l<<" "<<r3.b<<endl;
     return 0;
 }
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/mayankchugh2344-sudo/Study-material.git
+git branch -M main
+git push -u origin main
