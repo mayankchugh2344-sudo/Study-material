@@ -35,7 +35,7 @@ class Child3: protected Parent
 
 int main()
 {
-  
+   
 
     return 0;
 }
