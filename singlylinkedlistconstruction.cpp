@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Node class
 class Node
 {
 public:
@@ -16,7 +15,7 @@ public:
     }
 };
 
-// Function to display the linked list
+// Display Linked List
 void display(Node* head)
 {
     Node* temp = head;
@@ -32,23 +31,11 @@ void display(Node* head)
 
 int main()
 {
-    // Create the first node
     Node* head = new Node(10);
-
-    // Create the second node
     Node* second = new Node(20);
 
-    // Connect first node to second
     head->next = second;
 
-    // Create the third node
-    Node* third = new Node(30);
-
-    // Connect second node to third
-    second->next = third;
-
-    // Display the linked list
-    cout << "Linked List: ";
     display(head);
 
     return 0;
