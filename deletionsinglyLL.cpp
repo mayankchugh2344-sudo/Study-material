@@ -64,9 +64,9 @@ void deleteNodes(Node* &head, Node* &tail, int n, int n1)
     // Delete first node
     else if (n1 == 1)
     {
-        Node* temp = head;
+        Node* curr = head;
         head = head->next;
-        delete temp;
+        delete curr;
 
         // If list becomes empty
         if (head == NULL)
